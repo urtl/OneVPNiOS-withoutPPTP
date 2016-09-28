@@ -1,0 +1,6 @@
+framework module SBJson4 {
+  umbrella header "SBJson4.h"
+
+  export *
+  module * { export * }
+}

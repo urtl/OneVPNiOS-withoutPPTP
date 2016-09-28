@@ -1,0 +1,1313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		05B057B01D6362B100843503 /* protobuf */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 05B057B11D6362B100843503 /* Build configuration list for PBXAggregateTarget "protobuf" */;
+			buildPhases = (
+				05B057B41D6362B900843503 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = protobuf;
+			productName = protobuf;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		053829CF1D6A1CC000E31074 /* VPNConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 053829CD1D6A1CA500E31074 /* VPNConnectionManager.m */; };
+		053829D11D6A1DC200E31074 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053829D01D6A1DC200E31074 /* SystemConfiguration.framework */; };
+		053829D21D6A512900E31074 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05CB3D161D6349D900EE5F7C /* Security.framework */; };
+		0538F3381D75BA32006D3776 /* client.down.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0538F3341D75BA15006D3776 /* client.down.sh */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		0538F3391D75BA32006D3776 /* client.up.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0538F3351D75BA15006D3776 /* client.up.sh */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		055933AC1D747AC700DA32BB /* libcrypto.1.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 055933A61D747AAF00DA32BB /* libcrypto.1.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		055933AD1D747AC700DA32BB /* liblzo2.2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 055933A71D747AAF00DA32BB /* liblzo2.2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		055933AE1D747AC700DA32BB /* libssl.1.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 055933A81D747AAF00DA32BB /* libssl.1.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		055C6B2E1D7C3B5D003B6759 /* PinCoordsByCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 055C6B2D1D7C3B5D003B6759 /* PinCoordsByCountry.m */; };
+		055C6B301D7CA8CC003B6759 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 055C6B2F1D7CA8CC003B6759 /* NetworkExtension.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		057C0B3E1D6E407000996194 /* OpenVPNConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 057C0B3D1D6E407000996194 /* OpenVPNConfig.m */; };
+		057C0B431D6E46B500996194 /* openvpn in CopyFiles */ = {isa = PBXBuildFile; fileRef = 057C0B401D6E468400996194 /* openvpn */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		057C0B461D6E4BAF00996194 /* OpenVPNConfigUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 057C0B451D6E4BAF00996194 /* OpenVPNConfigUtils.m */; };
+		057C0B4A1D6EE0A500996194 /* ClientThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 057C0B491D6EE0A500996194 /* ClientThread.m */; };
+		058B14EC1D640330006AC1A2 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 058B14DA1D640330006AC1A2 /* AFHTTPClient.m */; };
+		058B14ED1D640330006AC1A2 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 058B14DC1D640330006AC1A2 /* AFHTTPRequestOperation.m */; };
+		058B14EE1D640330006AC1A2 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 058B14DE1D640330006AC1A2 /* AFImageRequestOperation.m */; };
+		058B14EF1D640330006AC1A2 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 058B14E01D640330006AC1A2 /* AFJSONRequestOperation.m */; };
+		058B14F01D640330006AC1A2 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 058B14E21D640330006AC1A2 /* AFNetworkActivityIndicatorManager.m */; };
+		058B14F11D640330006AC1A2 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 058B14E51D640330006AC1A2 /* AFPropertyListRequestOperation.m */; };
+		058B14F21D640330006AC1A2 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 058B14E71D640330006AC1A2 /* AFURLConnectionOperation.m */; };
+		058B14F31D640330006AC1A2 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 058B14E91D640330006AC1A2 /* AFXMLRequestOperation.m */; };
+		058B14F41D640330006AC1A2 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 058B14EB1D640330006AC1A2 /* UIImageView+AFNetworking.m */; };
+		058B14FA1D6403CA006AC1A2 /* ServerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 058B14F91D6403CA006AC1A2 /* ServerInfo.m */; };
+		058B14FE1D640803006AC1A2 /* RestService.m in Sources */ = {isa = PBXBuildFile; fileRef = 058B14FD1D640803006AC1A2 /* RestService.m */; };
+		058B15031D641643006AC1A2 /* ConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 058B15011D641643006AC1A2 /* ConnectViewController.m */; };
+		058B15041D641643006AC1A2 /* ConnectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 058B15021D641643006AC1A2 /* ConnectViewController.xib */; };
+		058B150A1D64D6F6006AC1A2 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B15061D64D6F6006AC1A2 /* background.png */; };
+		058B150B1D64D6F6006AC1A2 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B15071D64D6F6006AC1A2 /* background@2x.png */; };
+		058B150C1D64D6F6006AC1A2 /* menu_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B15081D64D6F6006AC1A2 /* menu_button.png */; };
+		058B150D1D64D6F6006AC1A2 /* menu_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B15091D64D6F6006AC1A2 /* menu_button@2x.png */; };
+		058B15111D65B20B006AC1A2 /* NSColor+AppColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 058B15101D65B20B006AC1A2 /* NSColor+AppColors.m */; };
+		058B15181D65D59F006AC1A2 /* connect_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B15121D65D59F006AC1A2 /* connect_button.png */; };
+		058B15191D65D59F006AC1A2 /* connect_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B15131D65D59F006AC1A2 /* connect_button@2x.png */; };
+		058B151A1D65D59F006AC1A2 /* disconnect_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B15141D65D59F006AC1A2 /* disconnect_button.png */; };
+		058B151B1D65D59F006AC1A2 /* disconnect_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B15151D65D59F006AC1A2 /* disconnect_button@2x.png */; };
+		058B151C1D65D59F006AC1A2 /* menu_button_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B15161D65D59F006AC1A2 /* menu_button_press.png */; };
+		058B151D1D65D59F006AC1A2 /* menu_button_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B15171D65D59F006AC1A2 /* menu_button_press@2x.png */; };
+		058B15201D65D5B7006AC1A2 /* NSImage+AppImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 058B151F1D65D5B7006AC1A2 /* NSImage+AppImages.m */; };
+		058B15231D65EDB1006AC1A2 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 058B15221D65EDB1006AC1A2 /* MenuViewController.m */; };
+		058B152B1D65F85B006AC1A2 /* ClickableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 058B152A1D65F85B006AC1A2 /* ClickableView.m */; };
+		058B15351D66389C006AC1A2 /* menu_path.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B152F1D66389C006AC1A2 /* menu_path.png */; };
+		058B15361D66389C006AC1A2 /* menu_path@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B15301D66389C006AC1A2 /* menu_path@2x.png */; };
+		058B15371D66389C006AC1A2 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B15311D66389C006AC1A2 /* pin.png */; };
+		058B15381D66389C006AC1A2 /* pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B15321D66389C006AC1A2 /* pin@2x.png */; };
+		058B15391D66389C006AC1A2 /* reload_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B15331D66389C006AC1A2 /* reload_button.png */; };
+		058B153A1D66389C006AC1A2 /* reload_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B15341D66389C006AC1A2 /* reload_button@2x.png */; };
+		058B153C1D663C7B006AC1A2 /* usa.png in Resources */ = {isa = PBXBuildFile; fileRef = 058B153B1D663C7B006AC1A2 /* usa.png */; };
+		058B153F1D663CBA006AC1A2 /* ServerCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 058B153E1D663CBA006AC1A2 /* ServerCellView.m */; };
+		05B057AA1D63583200843503 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CB3CFB1D620EB300EE5F7C /* main.m */; };
+		05B057AD1D63589800843503 /* com.onevpn.OneVPNHelper in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05CB3D211D634B3900EE5F7C /* com.onevpn.OneVPNHelper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		05B057BB1D63686500843503 /* Xpc.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B057BA1D63686500843503 /* Xpc.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		05B057BC1D63686D00843503 /* Xpc.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B057BA1D63686500843503 /* Xpc.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		05B058A51D6379C700843503 /* GPBProtocolBuffers.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B058471D63791900843503 /* GPBProtocolBuffers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		05B058B01D637D5800843503 /* GPBProtocolBuffers.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B058471D63791900843503 /* GPBProtocolBuffers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		05B058B71D63B46500843503 /* MessageProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B058B61D63B46500843503 /* MessageProcessor.m */; };
+		05B058C01D63BB0800843503 /* XPCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B058BF1D63BB0800843503 /* XPCConnection.m */; };
+		05CB3CE31D609B4300EE5F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05CB3CDE1D609B4300EE5F7C /* Assets.xcassets */; };
+		05CB3CE41D609B4300EE5F7C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05CB3CE01D609B4300EE5F7C /* MainMenu.xib */; };
+		05CB3CE51D609B4300EE5F7C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05CB3CE21D609B4300EE5F7C /* Info.plist */; };
+		05CB3CE91D61FC9F00EE5F7C /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05CB3CE81D61FC9F00EE5F7C /* Sparkle.framework */; };
+		05CB3CEA1D61FC9F00EE5F7C /* Sparkle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05CB3CE81D61FC9F00EE5F7C /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		05CB3CEF1D61FD0400EE5F7C /* Sparkle.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05CB3CEE1D61FD0400EE5F7C /* Sparkle.framework.dSYM */; };
+		05CB3D091D63362200EE5F7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CB3D081D63362200EE5F7C /* AppDelegate.m */; };
+		05CB3D0B1D63368C00EE5F7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CB3D0A1D63368C00EE5F7C /* main.m */; };
+		05CB3D121D63374E00EE5F7C /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CB3D111D63374E00EE5F7C /* MainWindowController.m */; };
+		05CB3D151D6349D400EE5F7C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05CB3D141D6349D400EE5F7C /* Cocoa.framework */; };
+		05CB3D171D6349D900EE5F7C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05CB3D161D6349D900EE5F7C /* Security.framework */; };
+		05CB3D191D6349E400EE5F7C /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05CB3D181D6349E400EE5F7C /* ServiceManagement.framework */; };
+		05CB3D281D634B5E00EE5F7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05CB3D1A1D634A2400EE5F7C /* Foundation.framework */; };
+		05ECFC551D7DD5EC00C59FE7 /* PPPDConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 05ECFC541D7DD5EC00C59FE7 /* PPPDConfig.m */; };
+		05ECFC581D7DD6B200C59FE7 /* PPPDConfigUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 05ECFC571D7DD6B200C59FE7 /* PPPDConfigUtils.m */; };
+		05F8232E1D7DD12800C553A4 /* pppd in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05F8232B1D7DD0FA00C553A4 /* pppd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05B057AB1D63589100843503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05CB3CC31D609AB800EE5F7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05CB3D201D634B3900EE5F7C;
+			remoteInfo = com.onevpn.OneVPNHelper;
+		};
+		05B057B51D63634D00843503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05CB3CC31D609AB800EE5F7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05B057B01D6362B100843503;
+			remoteInfo = protobuf;
+		};
+		05B057B71D63635100843503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05CB3CC31D609AB800EE5F7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05B057B01D6362B100843503;
+			remoteInfo = protobuf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		057C0B421D6E469900996194 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ovpn;
+			dstSubfolderSpec = 7;
+			files = (
+				0538F3381D75BA32006D3776 /* client.down.sh in CopyFiles */,
+				0538F3391D75BA32006D3776 /* client.up.sh in CopyFiles */,
+				055933AC1D747AC700DA32BB /* libcrypto.1.0.0.dylib in CopyFiles */,
+				055933AD1D747AC700DA32BB /* liblzo2.2.dylib in CopyFiles */,
+				055933AE1D747AC700DA32BB /* libssl.1.0.0.dylib in CopyFiles */,
+				057C0B431D6E46B500996194 /* openvpn in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CB3CEB1D61FCA000EE5F7C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				05CB3CEA1D61FC9F00EE5F7C /* Sparkle.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CB3CED1D61FCE600EE5F7C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				05CB3CEF1D61FD0400EE5F7C /* Sparkle.framework.dSYM in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CB3D1C1D634A3400EE5F7C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				05B057AD1D63589800843503 /* com.onevpn.OneVPNHelper in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F8232D1D7DD11700C553A4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = pptp;
+			dstSubfolderSpec = 7;
+			files = (
+				05F8232E1D7DD12800C553A4 /* pppd in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		053829CC1D6A1CA500E31074 /* VPNConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VPNConnectionManager.h; path = VPNConnectionManager/VPNConnectionManager.h; sourceTree = "<group>"; };
+		053829CD1D6A1CA500E31074 /* VPNConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VPNConnectionManager.m; path = VPNConnectionManager/VPNConnectionManager.m; sourceTree = "<group>"; };
+		053829D01D6A1DC200E31074 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0538F3341D75BA15006D3776 /* client.down.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = client.down.sh; path = Resources/ovpn/client.down.sh; sourceTree = "<group>"; };
+		0538F3351D75BA15006D3776 /* client.up.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = client.up.sh; path = Resources/ovpn/client.up.sh; sourceTree = "<group>"; };
+		055933A61D747AAF00DA32BB /* libcrypto.1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.1.0.0.dylib; path = Resources/ovpn/libcrypto.1.0.0.dylib; sourceTree = "<group>"; };
+		055933A71D747AAF00DA32BB /* liblzo2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblzo2.2.dylib; path = Resources/ovpn/liblzo2.2.dylib; sourceTree = "<group>"; };
+		055933A81D747AAF00DA32BB /* libssl.1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.1.0.0.dylib; path = Resources/ovpn/libssl.1.0.0.dylib; sourceTree = "<group>"; };
+		055C6B2C1D7C3B5D003B6759 /* PinCoordsByCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PinCoordsByCountry.h; path = Source/Utils/PinCoordsByCountry.h; sourceTree = "<group>"; };
+		055C6B2D1D7C3B5D003B6759 /* PinCoordsByCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PinCoordsByCountry.m; path = Source/Utils/PinCoordsByCountry.m; sourceTree = "<group>"; };
+		055C6B2F1D7CA8CC003B6759 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		057C0A0E1D6D1E7100996194 /* OneVPNHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text; path = OneVPNHelper.entitlements; sourceTree = "<group>"; };
+		057C0B3C1D6E404700996194 /* OpenVPNConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OpenVPNConfig.h; path = VPNConnectionManager/Config/OpenVPNConfig.h; sourceTree = "<group>"; };
+		057C0B3D1D6E407000996194 /* OpenVPNConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenVPNConfig.m; path = VPNConnectionManager/Config/OpenVPNConfig.m; sourceTree = "<group>"; };
+		057C0B401D6E468400996194 /* openvpn */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = openvpn; path = Resources/ovpn/openvpn; sourceTree = "<group>"; };
+		057C0B441D6E4BAF00996194 /* OpenVPNConfigUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenVPNConfigUtils.h; path = VPNConnectionManager/Config/OpenVPNConfigUtils.h; sourceTree = "<group>"; };
+		057C0B451D6E4BAF00996194 /* OpenVPNConfigUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenVPNConfigUtils.m; path = VPNConnectionManager/Config/OpenVPNConfigUtils.m; sourceTree = "<group>"; };
+		057C0B481D6EE0A500996194 /* ClientThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientThread.h; path = Utils/ClientThread.h; sourceTree = "<group>"; };
+		057C0B491D6EE0A500996194 /* ClientThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClientThread.m; path = Utils/ClientThread.m; sourceTree = "<group>"; };
+		058B14D91D640330006AC1A2 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPClient.h; path = Carthage/Checkouts/AFNetworking/AFNetworking/AFHTTPClient.h; sourceTree = SOURCE_ROOT; };
+		058B14DA1D640330006AC1A2 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPClient.m; path = Carthage/Checkouts/AFNetworking/AFNetworking/AFHTTPClient.m; sourceTree = SOURCE_ROOT; };
+		058B14DB1D640330006AC1A2 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = Carthage/Checkouts/AFNetworking/AFNetworking/AFHTTPRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		058B14DC1D640330006AC1A2 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = Carthage/Checkouts/AFNetworking/AFNetworking/AFHTTPRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		058B14DD1D640330006AC1A2 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFImageRequestOperation.h; path = Carthage/Checkouts/AFNetworking/AFNetworking/AFImageRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		058B14DE1D640330006AC1A2 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFImageRequestOperation.m; path = Carthage/Checkouts/AFNetworking/AFNetworking/AFImageRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		058B14DF1D640330006AC1A2 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFJSONRequestOperation.h; path = Carthage/Checkouts/AFNetworking/AFNetworking/AFJSONRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		058B14E01D640330006AC1A2 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFJSONRequestOperation.m; path = Carthage/Checkouts/AFNetworking/AFNetworking/AFJSONRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		058B14E11D640330006AC1A2 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = Carthage/Checkouts/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.h; sourceTree = SOURCE_ROOT; };
+		058B14E21D640330006AC1A2 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = Carthage/Checkouts/AFNetworking/AFNetworking/AFNetworkActivityIndicatorManager.m; sourceTree = SOURCE_ROOT; };
+		058B14E31D640330006AC1A2 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = Carthage/Checkouts/AFNetworking/AFNetworking/AFNetworking.h; sourceTree = SOURCE_ROOT; };
+		058B14E41D640330006AC1A2 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFPropertyListRequestOperation.h; path = Carthage/Checkouts/AFNetworking/AFNetworking/AFPropertyListRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		058B14E51D640330006AC1A2 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFPropertyListRequestOperation.m; path = Carthage/Checkouts/AFNetworking/AFNetworking/AFPropertyListRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		058B14E61D640330006AC1A2 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = Carthage/Checkouts/AFNetworking/AFNetworking/AFURLConnectionOperation.h; sourceTree = SOURCE_ROOT; };
+		058B14E71D640330006AC1A2 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = Carthage/Checkouts/AFNetworking/AFNetworking/AFURLConnectionOperation.m; sourceTree = SOURCE_ROOT; };
+		058B14E81D640330006AC1A2 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFXMLRequestOperation.h; path = Carthage/Checkouts/AFNetworking/AFNetworking/AFXMLRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		058B14E91D640330006AC1A2 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFXMLRequestOperation.m; path = Carthage/Checkouts/AFNetworking/AFNetworking/AFXMLRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		058B14EA1D640330006AC1A2 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "Carthage/Checkouts/AFNetworking/AFNetworking/UIImageView+AFNetworking.h"; sourceTree = SOURCE_ROOT; };
+		058B14EB1D640330006AC1A2 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "Carthage/Checkouts/AFNetworking/AFNetworking/UIImageView+AFNetworking.m"; sourceTree = SOURCE_ROOT; };
+		058B14F81D6403CA006AC1A2 /* ServerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServerInfo.h; path = Source/Models/VPN/ServerInfo.h; sourceTree = "<group>"; };
+		058B14F91D6403CA006AC1A2 /* ServerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServerInfo.m; path = Source/Models/VPN/ServerInfo.m; sourceTree = "<group>"; };
+		058B14FC1D640803006AC1A2 /* RestService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestService.h; path = Source/Connection/RestService.h; sourceTree = "<group>"; };
+		058B14FD1D640803006AC1A2 /* RestService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestService.m; path = Source/Connection/RestService.m; sourceTree = "<group>"; };
+		058B15001D641643006AC1A2 /* ConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnectViewController.h; path = Source/ViewControllers/ConnectViewController.h; sourceTree = "<group>"; };
+		058B15011D641643006AC1A2 /* ConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConnectViewController.m; path = Source/ViewControllers/ConnectViewController.m; sourceTree = "<group>"; };
+		058B15021D641643006AC1A2 /* ConnectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ConnectViewController.xib; path = Source/ViewControllers/ConnectViewController.xib; sourceTree = "<group>"; };
+		058B15061D64D6F6006AC1A2 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		058B15071D64D6F6006AC1A2 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		058B15081D64D6F6006AC1A2 /* menu_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_button.png; sourceTree = "<group>"; };
+		058B15091D64D6F6006AC1A2 /* menu_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_button@2x.png"; sourceTree = "<group>"; };
+		058B150F1D65B20B006AC1A2 /* NSColor+AppColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSColor+AppColors.h"; path = "Source/Utils/NSColor+AppColors.h"; sourceTree = "<group>"; };
+		058B15101D65B20B006AC1A2 /* NSColor+AppColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSColor+AppColors.m"; path = "Source/Utils/NSColor+AppColors.m"; sourceTree = "<group>"; };
+		058B15121D65D59F006AC1A2 /* connect_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connect_button.png; sourceTree = "<group>"; };
+		058B15131D65D59F006AC1A2 /* connect_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "connect_button@2x.png"; sourceTree = "<group>"; };
+		058B15141D65D59F006AC1A2 /* disconnect_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disconnect_button.png; sourceTree = "<group>"; };
+		058B15151D65D59F006AC1A2 /* disconnect_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "disconnect_button@2x.png"; sourceTree = "<group>"; };
+		058B15161D65D59F006AC1A2 /* menu_button_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_button_press.png; sourceTree = "<group>"; };
+		058B15171D65D59F006AC1A2 /* menu_button_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_button_press@2x.png"; sourceTree = "<group>"; };
+		058B151E1D65D5B7006AC1A2 /* NSImage+AppImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSImage+AppImages.h"; path = "Source/Utils/NSImage+AppImages.h"; sourceTree = "<group>"; };
+		058B151F1D65D5B7006AC1A2 /* NSImage+AppImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSImage+AppImages.m"; path = "Source/Utils/NSImage+AppImages.m"; sourceTree = "<group>"; };
+		058B15211D65EDB1006AC1A2 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = Source/ViewControllers/MenuViewController.h; sourceTree = "<group>"; };
+		058B15221D65EDB1006AC1A2 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = Source/ViewControllers/MenuViewController.m; sourceTree = "<group>"; };
+		058B15291D65F85B006AC1A2 /* ClickableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClickableView.h; path = Source/ViewControllers/Views/ClickableView.h; sourceTree = "<group>"; };
+		058B152A1D65F85B006AC1A2 /* ClickableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClickableView.m; path = Source/ViewControllers/Views/ClickableView.m; sourceTree = "<group>"; };
+		058B152F1D66389C006AC1A2 /* menu_path.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_path.png; sourceTree = "<group>"; };
+		058B15301D66389C006AC1A2 /* menu_path@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_path@2x.png"; sourceTree = "<group>"; };
+		058B15311D66389C006AC1A2 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		058B15321D66389C006AC1A2 /* pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin@2x.png"; sourceTree = "<group>"; };
+		058B15331D66389C006AC1A2 /* reload_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload_button.png; sourceTree = "<group>"; };
+		058B15341D66389C006AC1A2 /* reload_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reload_button@2x.png"; sourceTree = "<group>"; };
+		058B153B1D663C7B006AC1A2 /* usa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usa.png; sourceTree = "<group>"; };
+		058B153D1D663CBA006AC1A2 /* ServerCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServerCellView.h; path = Source/ViewControllers/Views/ServerCellView.h; sourceTree = "<group>"; };
+		058B153E1D663CBA006AC1A2 /* ServerCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServerCellView.m; path = Source/ViewControllers/Views/ServerCellView.m; sourceTree = "<group>"; };
+		05B057B91D63686500843503 /* Xpc.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Xpc.pbobjc.h; path = Shared/Protocol/Xpc.pbobjc.h; sourceTree = "<group>"; };
+		05B057BA1D63686500843503 /* Xpc.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Xpc.pbobjc.m; path = Shared/Protocol/Xpc.pbobjc.m; sourceTree = "<group>"; };
+		05B0583D1D63791900843503 /* GPBArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBArray.h; path = Shared/Protocol/protobuf/GPBArray.h; sourceTree = "<group>"; };
+		05B0583E1D63791900843503 /* GPBBootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBBootstrap.h; path = Shared/Protocol/protobuf/GPBBootstrap.h; sourceTree = "<group>"; };
+		05B0583F1D63791900843503 /* GPBCodedInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBCodedInputStream.h; path = Shared/Protocol/protobuf/GPBCodedInputStream.h; sourceTree = "<group>"; };
+		05B058401D63791900843503 /* GPBCodedOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBCodedOutputStream.h; path = Shared/Protocol/protobuf/GPBCodedOutputStream.h; sourceTree = "<group>"; };
+		05B058411D63791900843503 /* GPBDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBDescriptor.h; path = Shared/Protocol/protobuf/GPBDescriptor.h; sourceTree = "<group>"; };
+		05B058421D63791900843503 /* GPBDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBDictionary.h; path = Shared/Protocol/protobuf/GPBDictionary.h; sourceTree = "<group>"; };
+		05B058431D63791900843503 /* GPBExtensionInternals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBExtensionInternals.h; path = Shared/Protocol/protobuf/GPBExtensionInternals.h; sourceTree = "<group>"; };
+		05B058441D63791900843503 /* GPBExtensionRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBExtensionRegistry.h; path = Shared/Protocol/protobuf/GPBExtensionRegistry.h; sourceTree = "<group>"; };
+		05B058451D63791900843503 /* GPBMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBMessage.h; path = Shared/Protocol/protobuf/GPBMessage.h; sourceTree = "<group>"; };
+		05B058461D63791900843503 /* GPBProtocolBuffers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBProtocolBuffers.h; path = Shared/Protocol/protobuf/GPBProtocolBuffers.h; sourceTree = "<group>"; };
+		05B058471D63791900843503 /* GPBProtocolBuffers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBProtocolBuffers.m; path = Shared/Protocol/protobuf/GPBProtocolBuffers.m; sourceTree = "<group>"; };
+		05B058481D63791900843503 /* GPBRootObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBRootObject.h; path = Shared/Protocol/protobuf/GPBRootObject.h; sourceTree = "<group>"; };
+		05B058491D63791900843503 /* GPBRuntimeTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBRuntimeTypes.h; path = Shared/Protocol/protobuf/GPBRuntimeTypes.h; sourceTree = "<group>"; };
+		05B0584A1D63791900843503 /* GPBUnknownField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBUnknownField.h; path = Shared/Protocol/protobuf/GPBUnknownField.h; sourceTree = "<group>"; };
+		05B0584B1D63791900843503 /* GPBUnknownFieldSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBUnknownFieldSet.h; path = Shared/Protocol/protobuf/GPBUnknownFieldSet.h; sourceTree = "<group>"; };
+		05B0584C1D63791900843503 /* GPBUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBUtilities.h; path = Shared/Protocol/protobuf/GPBUtilities.h; sourceTree = "<group>"; };
+		05B0584D1D63791900843503 /* GPBWellKnownTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBWellKnownTypes.h; path = Shared/Protocol/protobuf/GPBWellKnownTypes.h; sourceTree = "<group>"; };
+		05B0584E1D63791900843503 /* GPBWireFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBWireFormat.h; path = Shared/Protocol/protobuf/GPBWireFormat.h; sourceTree = "<group>"; };
+		05B058501D63796000843503 /* GPBProtocolBuffers_RuntimeSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBProtocolBuffers_RuntimeSupport.h; path = Shared/Protocol/protobuf/GPBProtocolBuffers_RuntimeSupport.h; sourceTree = "<group>"; };
+		05B058531D63798000843503 /* Any.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Any.pbobjc.h; sourceTree = "<group>"; };
+		05B058541D63798000843503 /* Any.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Any.pbobjc.m; sourceTree = "<group>"; };
+		05B058551D63798000843503 /* Api.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Api.pbobjc.h; sourceTree = "<group>"; };
+		05B058561D63798000843503 /* Api.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Api.pbobjc.m; sourceTree = "<group>"; };
+		05B058571D63798000843503 /* Duration.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Duration.pbobjc.h; sourceTree = "<group>"; };
+		05B058581D63798000843503 /* Duration.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Duration.pbobjc.m; sourceTree = "<group>"; };
+		05B058591D63798000843503 /* Empty.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Empty.pbobjc.h; sourceTree = "<group>"; };
+		05B0585A1D63798000843503 /* Empty.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Empty.pbobjc.m; sourceTree = "<group>"; };
+		05B0585B1D63798000843503 /* FieldMask.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldMask.pbobjc.h; sourceTree = "<group>"; };
+		05B0585C1D63798000843503 /* FieldMask.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldMask.pbobjc.m; sourceTree = "<group>"; };
+		05B0585D1D63798000843503 /* SourceContext.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceContext.pbobjc.h; sourceTree = "<group>"; };
+		05B0585E1D63798000843503 /* SourceContext.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceContext.pbobjc.m; sourceTree = "<group>"; };
+		05B0585F1D63798000843503 /* Struct.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Struct.pbobjc.h; sourceTree = "<group>"; };
+		05B058601D63798000843503 /* Struct.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Struct.pbobjc.m; sourceTree = "<group>"; };
+		05B058611D63798000843503 /* Timestamp.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timestamp.pbobjc.h; sourceTree = "<group>"; };
+		05B058621D63798000843503 /* Timestamp.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timestamp.pbobjc.m; sourceTree = "<group>"; };
+		05B058631D63798000843503 /* Type.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type.pbobjc.h; sourceTree = "<group>"; };
+		05B058641D63798000843503 /* Type.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type.pbobjc.m; sourceTree = "<group>"; };
+		05B058651D63798000843503 /* Wrappers.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wrappers.pbobjc.h; sourceTree = "<group>"; };
+		05B058661D63798000843503 /* Wrappers.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wrappers.pbobjc.m; sourceTree = "<group>"; };
+		05B058671D63798000843503 /* GPBArray_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBArray_PackagePrivate.h; path = Shared/Protocol/protobuf/GPBArray_PackagePrivate.h; sourceTree = "<group>"; };
+		05B058681D63798000843503 /* GPBArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBArray.m; path = Shared/Protocol/protobuf/GPBArray.m; sourceTree = "<group>"; };
+		05B058691D63798000843503 /* GPBCodedInputStream_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBCodedInputStream_PackagePrivate.h; path = Shared/Protocol/protobuf/GPBCodedInputStream_PackagePrivate.h; sourceTree = "<group>"; };
+		05B0586A1D63798000843503 /* GPBCodedInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBCodedInputStream.m; path = Shared/Protocol/protobuf/GPBCodedInputStream.m; sourceTree = "<group>"; };
+		05B0586B1D63798000843503 /* GPBCodedOutputStream_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBCodedOutputStream_PackagePrivate.h; path = Shared/Protocol/protobuf/GPBCodedOutputStream_PackagePrivate.h; sourceTree = "<group>"; };
+		05B0586C1D63798000843503 /* GPBCodedOutputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBCodedOutputStream.m; path = Shared/Protocol/protobuf/GPBCodedOutputStream.m; sourceTree = "<group>"; };
+		05B0586D1D63798000843503 /* GPBDescriptor_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBDescriptor_PackagePrivate.h; path = Shared/Protocol/protobuf/GPBDescriptor_PackagePrivate.h; sourceTree = "<group>"; };
+		05B0586E1D63798000843503 /* GPBDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBDescriptor.m; path = Shared/Protocol/protobuf/GPBDescriptor.m; sourceTree = "<group>"; };
+		05B0586F1D63798000843503 /* GPBDictionary_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBDictionary_PackagePrivate.h; path = Shared/Protocol/protobuf/GPBDictionary_PackagePrivate.h; sourceTree = "<group>"; };
+		05B058701D63798000843503 /* GPBDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBDictionary.m; path = Shared/Protocol/protobuf/GPBDictionary.m; sourceTree = "<group>"; };
+		05B058711D63798000843503 /* GPBExtensionInternals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBExtensionInternals.m; path = Shared/Protocol/protobuf/GPBExtensionInternals.m; sourceTree = "<group>"; };
+		05B058721D63798000843503 /* GPBExtensionRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBExtensionRegistry.m; path = Shared/Protocol/protobuf/GPBExtensionRegistry.m; sourceTree = "<group>"; };
+		05B058731D63798000843503 /* GPBMessage_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBMessage_PackagePrivate.h; path = Shared/Protocol/protobuf/GPBMessage_PackagePrivate.h; sourceTree = "<group>"; };
+		05B058741D63798000843503 /* GPBMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBMessage.m; path = Shared/Protocol/protobuf/GPBMessage.m; sourceTree = "<group>"; };
+		05B058751D63798000843503 /* GPBRootObject_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBRootObject_PackagePrivate.h; path = Shared/Protocol/protobuf/GPBRootObject_PackagePrivate.h; sourceTree = "<group>"; };
+		05B058761D63798000843503 /* GPBRootObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBRootObject.m; path = Shared/Protocol/protobuf/GPBRootObject.m; sourceTree = "<group>"; };
+		05B058771D63798000843503 /* GPBUnknownField_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBUnknownField_PackagePrivate.h; path = Shared/Protocol/protobuf/GPBUnknownField_PackagePrivate.h; sourceTree = "<group>"; };
+		05B058781D63798000843503 /* GPBUnknownField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBUnknownField.m; path = Shared/Protocol/protobuf/GPBUnknownField.m; sourceTree = "<group>"; };
+		05B058791D63798000843503 /* GPBUnknownFieldSet_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBUnknownFieldSet_PackagePrivate.h; path = Shared/Protocol/protobuf/GPBUnknownFieldSet_PackagePrivate.h; sourceTree = "<group>"; };
+		05B0587A1D63798000843503 /* GPBUnknownFieldSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBUnknownFieldSet.m; path = Shared/Protocol/protobuf/GPBUnknownFieldSet.m; sourceTree = "<group>"; };
+		05B0587B1D63798000843503 /* GPBUtilities_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPBUtilities_PackagePrivate.h; path = Shared/Protocol/protobuf/GPBUtilities_PackagePrivate.h; sourceTree = "<group>"; };
+		05B0587C1D63798000843503 /* GPBUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBUtilities.m; path = Shared/Protocol/protobuf/GPBUtilities.m; sourceTree = "<group>"; };
+		05B0587D1D63798000843503 /* GPBWellKnownTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBWellKnownTypes.m; path = Shared/Protocol/protobuf/GPBWellKnownTypes.m; sourceTree = "<group>"; };
+		05B0587E1D63798000843503 /* GPBWireFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPBWireFormat.m; path = Shared/Protocol/protobuf/GPBWireFormat.m; sourceTree = "<group>"; };
+		05B058B11D63969D00843503 /* build_version.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build_version.xcconfig; path = Shared/build_version.xcconfig; sourceTree = "<group>"; };
+		05B058B51D63B46500843503 /* MessageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageProcessor.h; path = MessageProcessor/MessageProcessor.h; sourceTree = "<group>"; };
+		05B058B61D63B46500843503 /* MessageProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageProcessor.m; path = MessageProcessor/MessageProcessor.m; sourceTree = "<group>"; };
+		05B058BE1D63BB0800843503 /* XPCConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPCConnection.h; path = Source/XPCConnection/XPCConnection.h; sourceTree = "<group>"; };
+		05B058BF1D63BB0800843503 /* XPCConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XPCConnection.m; path = Source/XPCConnection/XPCConnection.m; sourceTree = "<group>"; };
+		05CB3CCB1D609AB800EE5F7C /* OneVPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneVPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CB3CDE1D609B4300EE5F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		05CB3CE11D609B4300EE5F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = MainMenu.xib; sourceTree = "<group>"; };
+		05CB3CE21D609B4300EE5F7C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
+		05CB3CE81D61FC9F00EE5F7C /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Carthage/Build/Mac/Sparkle.framework; sourceTree = "<group>"; };
+		05CB3CEE1D61FD0400EE5F7C /* Sparkle.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Sparkle.framework.dSYM; path = Carthage/Build/Mac/Sparkle.framework.dSYM; sourceTree = "<group>"; };
+		05CB3CFB1D620EB300EE5F7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05CB3CFD1D620EB300EE5F7C /* OneVPNHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OneVPNHelper-Info.plist"; sourceTree = "<group>"; };
+		05CB3D051D632DBA00EE5F7C /* OneVPNHelper-Launchd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OneVPNHelper-Launchd.plist"; sourceTree = "<group>"; };
+		05CB3D071D63362200EE5F7C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Source/AppDelegate.h; sourceTree = "<group>"; };
+		05CB3D081D63362200EE5F7C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Source/AppDelegate.m; sourceTree = "<group>"; };
+		05CB3D0A1D63368C00EE5F7C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Source/main.m; sourceTree = "<group>"; };
+		05CB3D101D63374E00EE5F7C /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainWindowController.h; path = Source/WindowController/MainWindowController.h; sourceTree = "<group>"; };
+		05CB3D111D63374E00EE5F7C /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainWindowController.m; path = Source/WindowController/MainWindowController.m; sourceTree = "<group>"; };
+		05CB3D141D6349D400EE5F7C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		05CB3D161D6349D900EE5F7C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		05CB3D181D6349E400EE5F7C /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		05CB3D1A1D634A2400EE5F7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05CB3D211D634B3900EE5F7C /* com.onevpn.OneVPNHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.onevpn.OneVPNHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		05ECFC531D7DD5EC00C59FE7 /* PPPDConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPPDConfig.h; path = VPNConnectionManager/Config/PPPDConfig.h; sourceTree = "<group>"; };
+		05ECFC541D7DD5EC00C59FE7 /* PPPDConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPPDConfig.m; path = VPNConnectionManager/Config/PPPDConfig.m; sourceTree = "<group>"; };
+		05ECFC561D7DD6B200C59FE7 /* PPPDConfigUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPPDConfigUtils.h; path = VPNConnectionManager/Config/PPPDConfigUtils.h; sourceTree = "<group>"; };
+		05ECFC571D7DD6B200C59FE7 /* PPPDConfigUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPPDConfigUtils.m; path = VPNConnectionManager/Config/PPPDConfigUtils.m; sourceTree = "<group>"; };
+		05F8232B1D7DD0FA00C553A4 /* pppd */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = pppd; path = Resources/pptp/pppd; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05CB3CC81D609AB800EE5F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CB3D191D6349E400EE5F7C /* ServiceManagement.framework in Frameworks */,
+				05CB3D171D6349D900EE5F7C /* Security.framework in Frameworks */,
+				05CB3D151D6349D400EE5F7C /* Cocoa.framework in Frameworks */,
+				05CB3CE91D61FC9F00EE5F7C /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CB3D1E1D634B3900EE5F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055C6B301D7CA8CC003B6759 /* NetworkExtension.framework in Frameworks */,
+				053829D21D6A512900E31074 /* Security.framework in Frameworks */,
+				053829D11D6A1DC200E31074 /* SystemConfiguration.framework in Frameworks */,
+				05CB3D281D634B5E00EE5F7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		053829CB1D6A1C7F00E31074 /* VPNConnectionManager */ = {
+			isa = PBXGroup;
+			children = (
+				057C0B3B1D6E402600996194 /* Config */,
+				053829CC1D6A1CA500E31074 /* VPNConnectionManager.h */,
+				053829CD1D6A1CA500E31074 /* VPNConnectionManager.m */,
+			);
+			name = VPNConnectionManager;
+			sourceTree = "<group>";
+		};
+		057C0B3B1D6E402600996194 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				057C0B3C1D6E404700996194 /* OpenVPNConfig.h */,
+				057C0B3D1D6E407000996194 /* OpenVPNConfig.m */,
+				057C0B441D6E4BAF00996194 /* OpenVPNConfigUtils.h */,
+				057C0B451D6E4BAF00996194 /* OpenVPNConfigUtils.m */,
+				05ECFC531D7DD5EC00C59FE7 /* PPPDConfig.h */,
+				05ECFC541D7DD5EC00C59FE7 /* PPPDConfig.m */,
+				05ECFC561D7DD6B200C59FE7 /* PPPDConfigUtils.h */,
+				05ECFC571D7DD6B200C59FE7 /* PPPDConfigUtils.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		057C0B3F1D6E460C00996194 /* ovpn */ = {
+			isa = PBXGroup;
+			children = (
+				0538F3341D75BA15006D3776 /* client.down.sh */,
+				0538F3351D75BA15006D3776 /* client.up.sh */,
+				055933A61D747AAF00DA32BB /* libcrypto.1.0.0.dylib */,
+				055933A71D747AAF00DA32BB /* liblzo2.2.dylib */,
+				055933A81D747AAF00DA32BB /* libssl.1.0.0.dylib */,
+				057C0B401D6E468400996194 /* openvpn */,
+			);
+			name = ovpn;
+			sourceTree = "<group>";
+		};
+		057C0B471D6EE08700996194 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				057C0B481D6EE0A500996194 /* ClientThread.h */,
+				057C0B491D6EE0A500996194 /* ClientThread.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		058B14D81D64031C006AC1A2 /* Third-party */ = {
+			isa = PBXGroup;
+			children = (
+				058B14F51D640350006AC1A2 /* AFNetworking */,
+			);
+			name = "Third-party";
+			sourceTree = "<group>";
+		};
+		058B14F51D640350006AC1A2 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				058B14D91D640330006AC1A2 /* AFHTTPClient.h */,
+				058B14DA1D640330006AC1A2 /* AFHTTPClient.m */,
+				058B14DB1D640330006AC1A2 /* AFHTTPRequestOperation.h */,
+				058B14DC1D640330006AC1A2 /* AFHTTPRequestOperation.m */,
+				058B14DD1D640330006AC1A2 /* AFImageRequestOperation.h */,
+				058B14DE1D640330006AC1A2 /* AFImageRequestOperation.m */,
+				058B14DF1D640330006AC1A2 /* AFJSONRequestOperation.h */,
+				058B14E01D640330006AC1A2 /* AFJSONRequestOperation.m */,
+				058B14E11D640330006AC1A2 /* AFNetworkActivityIndicatorManager.h */,
+				058B14E21D640330006AC1A2 /* AFNetworkActivityIndicatorManager.m */,
+				058B14E31D640330006AC1A2 /* AFNetworking.h */,
+				058B14E41D640330006AC1A2 /* AFPropertyListRequestOperation.h */,
+				058B14E51D640330006AC1A2 /* AFPropertyListRequestOperation.m */,
+				058B14E61D640330006AC1A2 /* AFURLConnectionOperation.h */,
+				058B14E71D640330006AC1A2 /* AFURLConnectionOperation.m */,
+				058B14E81D640330006AC1A2 /* AFXMLRequestOperation.h */,
+				058B14E91D640330006AC1A2 /* AFXMLRequestOperation.m */,
+				058B14EA1D640330006AC1A2 /* UIImageView+AFNetworking.h */,
+				058B14EB1D640330006AC1A2 /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		058B14F61D64038F006AC1A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				058B14F71D64039E006AC1A2 /* VPN */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		058B14F71D64039E006AC1A2 /* VPN */ = {
+			isa = PBXGroup;
+			children = (
+				058B14F81D6403CA006AC1A2 /* ServerInfo.h */,
+				058B14F91D6403CA006AC1A2 /* ServerInfo.m */,
+			);
+			name = VPN;
+			sourceTree = "<group>";
+		};
+		058B14FB1D6407E2006AC1A2 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				058B14FC1D640803006AC1A2 /* RestService.h */,
+				058B14FD1D640803006AC1A2 /* RestService.m */,
+			);
+			name = Connection;
+			sourceTree = "<group>";
+		};
+		058B14FF1D64161E006AC1A2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				058B15281D65F7F1006AC1A2 /* Views */,
+				058B15001D641643006AC1A2 /* ConnectViewController.h */,
+				058B15011D641643006AC1A2 /* ConnectViewController.m */,
+				058B15021D641643006AC1A2 /* ConnectViewController.xib */,
+				058B15211D65EDB1006AC1A2 /* MenuViewController.h */,
+				058B15221D65EDB1006AC1A2 /* MenuViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		058B15051D64D6F6006AC1A2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				058B153B1D663C7B006AC1A2 /* usa.png */,
+				058B152F1D66389C006AC1A2 /* menu_path.png */,
+				058B15301D66389C006AC1A2 /* menu_path@2x.png */,
+				058B15311D66389C006AC1A2 /* pin.png */,
+				058B15321D66389C006AC1A2 /* pin@2x.png */,
+				058B15331D66389C006AC1A2 /* reload_button.png */,
+				058B15341D66389C006AC1A2 /* reload_button@2x.png */,
+				058B15121D65D59F006AC1A2 /* connect_button.png */,
+				058B15131D65D59F006AC1A2 /* connect_button@2x.png */,
+				058B15141D65D59F006AC1A2 /* disconnect_button.png */,
+				058B15151D65D59F006AC1A2 /* disconnect_button@2x.png */,
+				058B15161D65D59F006AC1A2 /* menu_button_press.png */,
+				058B15171D65D59F006AC1A2 /* menu_button_press@2x.png */,
+				058B15061D64D6F6006AC1A2 /* background.png */,
+				058B15071D64D6F6006AC1A2 /* background@2x.png */,
+				058B15081D64D6F6006AC1A2 /* menu_button.png */,
+				058B15091D64D6F6006AC1A2 /* menu_button@2x.png */,
+			);
+			name = Images;
+			path = Resources/Images;
+			sourceTree = "<group>";
+		};
+		058B150E1D65B1E6006AC1A2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				058B150F1D65B20B006AC1A2 /* NSColor+AppColors.h */,
+				058B15101D65B20B006AC1A2 /* NSColor+AppColors.m */,
+				058B151E1D65D5B7006AC1A2 /* NSImage+AppImages.h */,
+				058B151F1D65D5B7006AC1A2 /* NSImage+AppImages.m */,
+				055C6B2C1D7C3B5D003B6759 /* PinCoordsByCountry.h */,
+				055C6B2D1D7C3B5D003B6759 /* PinCoordsByCountry.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		058B15281D65F7F1006AC1A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				058B15291D65F85B006AC1A2 /* ClickableView.h */,
+				058B152A1D65F85B006AC1A2 /* ClickableView.m */,
+				058B153D1D663CBA006AC1A2 /* ServerCellView.h */,
+				058B153E1D663CBA006AC1A2 /* ServerCellView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		05B057AE1D63625900843503 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				05B057AF1D63626100843503 /* Protocol */,
+				05B058B11D63969D00843503 /* build_version.xcconfig */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		05B057AF1D63626100843503 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				05B0583C1D6378E700843503 /* protobuf */,
+				05B057B91D63686500843503 /* Xpc.pbobjc.h */,
+				05B057BA1D63686500843503 /* Xpc.pbobjc.m */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		05B058361D63728E00843503 /* dSYM */ = {
+			isa = PBXGroup;
+			children = (
+				05CB3CEE1D61FD0400EE5F7C /* Sparkle.framework.dSYM */,
+			);
+			name = dSYM;
+			sourceTree = "<group>";
+		};
+		05B0583C1D6378E700843503 /* protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				05B058511D63798000843503 /* google */,
+				05B058671D63798000843503 /* GPBArray_PackagePrivate.h */,
+				05B058681D63798000843503 /* GPBArray.m */,
+				05B058691D63798000843503 /* GPBCodedInputStream_PackagePrivate.h */,
+				05B0586A1D63798000843503 /* GPBCodedInputStream.m */,
+				05B0586B1D63798000843503 /* GPBCodedOutputStream_PackagePrivate.h */,
+				05B0586C1D63798000843503 /* GPBCodedOutputStream.m */,
+				05B0586D1D63798000843503 /* GPBDescriptor_PackagePrivate.h */,
+				05B0586E1D63798000843503 /* GPBDescriptor.m */,
+				05B0586F1D63798000843503 /* GPBDictionary_PackagePrivate.h */,
+				05B058701D63798000843503 /* GPBDictionary.m */,
+				05B058711D63798000843503 /* GPBExtensionInternals.m */,
+				05B058721D63798000843503 /* GPBExtensionRegistry.m */,
+				05B058731D63798000843503 /* GPBMessage_PackagePrivate.h */,
+				05B058741D63798000843503 /* GPBMessage.m */,
+				05B058751D63798000843503 /* GPBRootObject_PackagePrivate.h */,
+				05B058761D63798000843503 /* GPBRootObject.m */,
+				05B058771D63798000843503 /* GPBUnknownField_PackagePrivate.h */,
+				05B058781D63798000843503 /* GPBUnknownField.m */,
+				05B058791D63798000843503 /* GPBUnknownFieldSet_PackagePrivate.h */,
+				05B0587A1D63798000843503 /* GPBUnknownFieldSet.m */,
+				05B0587B1D63798000843503 /* GPBUtilities_PackagePrivate.h */,
+				05B0587C1D63798000843503 /* GPBUtilities.m */,
+				05B0587D1D63798000843503 /* GPBWellKnownTypes.m */,
+				05B0587E1D63798000843503 /* GPBWireFormat.m */,
+				05B0583D1D63791900843503 /* GPBArray.h */,
+				05B0583E1D63791900843503 /* GPBBootstrap.h */,
+				05B0583F1D63791900843503 /* GPBCodedInputStream.h */,
+				05B058401D63791900843503 /* GPBCodedOutputStream.h */,
+				05B058411D63791900843503 /* GPBDescriptor.h */,
+				05B058421D63791900843503 /* GPBDictionary.h */,
+				05B058431D63791900843503 /* GPBExtensionInternals.h */,
+				05B058441D63791900843503 /* GPBExtensionRegistry.h */,
+				05B058451D63791900843503 /* GPBMessage.h */,
+				05B058501D63796000843503 /* GPBProtocolBuffers_RuntimeSupport.h */,
+				05B058461D63791900843503 /* GPBProtocolBuffers.h */,
+				05B058471D63791900843503 /* GPBProtocolBuffers.m */,
+				05B058481D63791900843503 /* GPBRootObject.h */,
+				05B058491D63791900843503 /* GPBRuntimeTypes.h */,
+				05B0584A1D63791900843503 /* GPBUnknownField.h */,
+				05B0584B1D63791900843503 /* GPBUnknownFieldSet.h */,
+				05B0584C1D63791900843503 /* GPBUtilities.h */,
+				05B0584D1D63791900843503 /* GPBWellKnownTypes.h */,
+				05B0584E1D63791900843503 /* GPBWireFormat.h */,
+			);
+			name = protobuf;
+			sourceTree = "<group>";
+		};
+		05B058511D63798000843503 /* google */ = {
+			isa = PBXGroup;
+			children = (
+				05B058521D63798000843503 /* protobuf */,
+			);
+			name = google;
+			path = Shared/Protocol/protobuf/google;
+			sourceTree = "<group>";
+		};
+		05B058521D63798000843503 /* protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				05B058531D63798000843503 /* Any.pbobjc.h */,
+				05B058541D63798000843503 /* Any.pbobjc.m */,
+				05B058551D63798000843503 /* Api.pbobjc.h */,
+				05B058561D63798000843503 /* Api.pbobjc.m */,
+				05B058571D63798000843503 /* Duration.pbobjc.h */,
+				05B058581D63798000843503 /* Duration.pbobjc.m */,
+				05B058591D63798000843503 /* Empty.pbobjc.h */,
+				05B0585A1D63798000843503 /* Empty.pbobjc.m */,
+				05B0585B1D63798000843503 /* FieldMask.pbobjc.h */,
+				05B0585C1D63798000843503 /* FieldMask.pbobjc.m */,
+				05B0585D1D63798000843503 /* SourceContext.pbobjc.h */,
+				05B0585E1D63798000843503 /* SourceContext.pbobjc.m */,
+				05B0585F1D63798000843503 /* Struct.pbobjc.h */,
+				05B058601D63798000843503 /* Struct.pbobjc.m */,
+				05B058611D63798000843503 /* Timestamp.pbobjc.h */,
+				05B058621D63798000843503 /* Timestamp.pbobjc.m */,
+				05B058631D63798000843503 /* Type.pbobjc.h */,
+				05B058641D63798000843503 /* Type.pbobjc.m */,
+				05B058651D63798000843503 /* Wrappers.pbobjc.h */,
+				05B058661D63798000843503 /* Wrappers.pbobjc.m */,
+			);
+			path = protobuf;
+			sourceTree = "<group>";
+		};
+		05B058B41D63B44100843503 /* MessageProcessor */ = {
+			isa = PBXGroup;
+			children = (
+				05B058B51D63B46500843503 /* MessageProcessor.h */,
+				05B058B61D63B46500843503 /* MessageProcessor.m */,
+			);
+			name = MessageProcessor;
+			sourceTree = "<group>";
+		};
+		05B058BD1D63BAE600843503 /* XPCConnection */ = {
+			isa = PBXGroup;
+			children = (
+				05B058BE1D63BB0800843503 /* XPCConnection.h */,
+				05B058BF1D63BB0800843503 /* XPCConnection.m */,
+			);
+			name = XPCConnection;
+			sourceTree = "<group>";
+		};
+		05CB3CC21D609AB800EE5F7C = {
+			isa = PBXGroup;
+			children = (
+				05B057AE1D63625900843503 /* Shared */,
+				05CB3CCD1D609AB800EE5F7C /* OneVPN */,
+				05CB3CF61D620EB300EE5F7C /* OneVPNHelper */,
+				05CB3CEC1D61FCAA00EE5F7C /* Frameworks */,
+				05CB3CCC1D609AB800EE5F7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05CB3CCC1D609AB800EE5F7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05CB3CCB1D609AB800EE5F7C /* OneVPN.app */,
+				05CB3D211D634B3900EE5F7C /* com.onevpn.OneVPNHelper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05CB3CCD1D609AB800EE5F7C /* OneVPN */ = {
+			isa = PBXGroup;
+			children = (
+				058B14D81D64031C006AC1A2 /* Third-party */,
+				05CB3CDD1D609AE800EE5F7C /* Resources */,
+				05CB3CDC1D609AE100EE5F7C /* Source */,
+			);
+			path = OneVPN;
+			sourceTree = "<group>";
+		};
+		05CB3CDC1D609AE100EE5F7C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				058B150E1D65B1E6006AC1A2 /* Utils */,
+				058B14FF1D64161E006AC1A2 /* ViewControllers */,
+				058B14FB1D6407E2006AC1A2 /* Connection */,
+				058B14F61D64038F006AC1A2 /* Models */,
+				05B058BD1D63BAE600843503 /* XPCConnection */,
+				05CB3D0C1D63371000EE5F7C /* WindowController */,
+				05CB3D071D63362200EE5F7C /* AppDelegate.h */,
+				05CB3D081D63362200EE5F7C /* AppDelegate.m */,
+				05CB3D0A1D63368C00EE5F7C /* main.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		05CB3CDD1D609AE800EE5F7C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05F8232A1D7DD0ED00C553A4 /* pptp */,
+				057C0B3F1D6E460C00996194 /* ovpn */,
+				058B15051D64D6F6006AC1A2 /* Images */,
+				05CB3CDE1D609B4300EE5F7C /* Assets.xcassets */,
+				05CB3CDF1D609B4300EE5F7C /* Base.lproj */,
+				05CB3CE21D609B4300EE5F7C /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		05CB3CDF1D609B4300EE5F7C /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				05CB3CE01D609B4300EE5F7C /* MainMenu.xib */,
+			);
+			name = Base.lproj;
+			path = Resources/Base.lproj;
+			sourceTree = "<group>";
+		};
+		05CB3CEC1D61FCAA00EE5F7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				055C6B2F1D7CA8CC003B6759 /* NetworkExtension.framework */,
+				053829D01D6A1DC200E31074 /* SystemConfiguration.framework */,
+				05B058361D63728E00843503 /* dSYM */,
+				05CB3D1A1D634A2400EE5F7C /* Foundation.framework */,
+				05CB3D181D6349E400EE5F7C /* ServiceManagement.framework */,
+				05CB3D161D6349D900EE5F7C /* Security.framework */,
+				05CB3D141D6349D400EE5F7C /* Cocoa.framework */,
+				05CB3CE81D61FC9F00EE5F7C /* Sparkle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05CB3CF61D620EB300EE5F7C /* OneVPNHelper */ = {
+			isa = PBXGroup;
+			children = (
+				057C0B471D6EE08700996194 /* Utils */,
+				053829CB1D6A1C7F00E31074 /* VPNConnectionManager */,
+				05B058B41D63B44100843503 /* MessageProcessor */,
+				05CB3CFB1D620EB300EE5F7C /* main.m */,
+				05CB3CFD1D620EB300EE5F7C /* OneVPNHelper-Info.plist */,
+				05CB3D051D632DBA00EE5F7C /* OneVPNHelper-Launchd.plist */,
+				057C0A0E1D6D1E7100996194 /* OneVPNHelper.entitlements */,
+			);
+			path = OneVPNHelper;
+			sourceTree = "<group>";
+		};
+		05CB3D0C1D63371000EE5F7C /* WindowController */ = {
+			isa = PBXGroup;
+			children = (
+				05CB3D101D63374E00EE5F7C /* MainWindowController.h */,
+				05CB3D111D63374E00EE5F7C /* MainWindowController.m */,
+			);
+			name = WindowController;
+			sourceTree = "<group>";
+		};
+		05F8232A1D7DD0ED00C553A4 /* pptp */ = {
+			isa = PBXGroup;
+			children = (
+				05F8232B1D7DD0FA00C553A4 /* pppd */,
+			);
+			name = pptp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05CB3CCA1D609AB800EE5F7C /* OneVPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05CB3CD81D609AB800EE5F7C /* Build configuration list for PBXNativeTarget "OneVPN" */;
+			buildPhases = (
+				05CB3CC71D609AB800EE5F7C /* Sources */,
+				05CB3CC81D609AB800EE5F7C /* Frameworks */,
+				05CB3CC91D609AB800EE5F7C /* Resources */,
+				05CB3CEB1D61FCA000EE5F7C /* Embed Frameworks */,
+				05CB3CED1D61FCE600EE5F7C /* CopyFiles */,
+				05CB3D1C1D634A3400EE5F7C /* CopyFiles */,
+				057C0B421D6E469900996194 /* CopyFiles */,
+				05F8232D1D7DD11700C553A4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05B057B81D63635100843503 /* PBXTargetDependency */,
+				05B057AC1D63589100843503 /* PBXTargetDependency */,
+			);
+			name = OneVPN;
+			productName = OneVPN;
+			productReference = 05CB3CCB1D609AB800EE5F7C /* OneVPN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05CB3D201D634B3900EE5F7C /* com.onevpn.OneVPNHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05CB3D251D634B3900EE5F7C /* Build configuration list for PBXNativeTarget "com.onevpn.OneVPNHelper" */;
+			buildPhases = (
+				05B058C41D63CFA000843503 /* ShellScript */,
+				05CB3D1D1D634B3900EE5F7C /* Sources */,
+				05CB3D1E1D634B3900EE5F7C /* Frameworks */,
+				05B058C51D63D28C00843503 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05B057B61D63634D00843503 /* PBXTargetDependency */,
+			);
+			name = com.onevpn.OneVPNHelper;
+			productName = OneVPNHelper;
+			productReference = 05CB3D211D634B3900EE5F7C /* com.onevpn.OneVPNHelper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05CB3CC31D609AB800EE5F7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = OneVPN;
+				TargetAttributes = {
+					05B057B01D6362B100843503 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					05CB3CCA1D609AB800EE5F7C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AG5DS2GD4F;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+							com.apple.VPNLite = {
+								enabled = 0;
+							};
+						};
+					};
+					05CB3D201D634B3900EE5F7C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AG5DS2GD4F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 05CB3CC61D609AB800EE5F7C /* Build configuration list for PBXProject "OneVPN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05CB3CC21D609AB800EE5F7C;
+			productRefGroup = 05CB3CCC1D609AB800EE5F7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05CB3CCA1D609AB800EE5F7C /* OneVPN */,
+				05CB3D201D634B3900EE5F7C /* com.onevpn.OneVPNHelper */,
+				05B057B01D6362B100843503 /* protobuf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05CB3CC91D609AB800EE5F7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CB3CE31D609B4300EE5F7C /* Assets.xcassets in Resources */,
+				058B150A1D64D6F6006AC1A2 /* background.png in Resources */,
+				058B15381D66389C006AC1A2 /* pin@2x.png in Resources */,
+				058B150C1D64D6F6006AC1A2 /* menu_button.png in Resources */,
+				05CB3CE41D609B4300EE5F7C /* MainMenu.xib in Resources */,
+				058B151A1D65D59F006AC1A2 /* disconnect_button.png in Resources */,
+				05CB3CE51D609B4300EE5F7C /* Info.plist in Resources */,
+				058B15371D66389C006AC1A2 /* pin.png in Resources */,
+				058B150B1D64D6F6006AC1A2 /* background@2x.png in Resources */,
+				058B153C1D663C7B006AC1A2 /* usa.png in Resources */,
+				058B15181D65D59F006AC1A2 /* connect_button.png in Resources */,
+				058B15041D641643006AC1A2 /* ConnectViewController.xib in Resources */,
+				058B151D1D65D59F006AC1A2 /* menu_button_press@2x.png in Resources */,
+				058B150D1D64D6F6006AC1A2 /* menu_button@2x.png in Resources */,
+				058B151B1D65D59F006AC1A2 /* disconnect_button@2x.png in Resources */,
+				058B151C1D65D59F006AC1A2 /* menu_button_press.png in Resources */,
+				058B15351D66389C006AC1A2 /* menu_path.png in Resources */,
+				058B15361D66389C006AC1A2 /* menu_path@2x.png in Resources */,
+				058B15191D65D59F006AC1A2 /* connect_button@2x.png in Resources */,
+				058B15391D66389C006AC1A2 /* reload_button.png in Resources */,
+				058B153A1D66389C006AC1A2 /* reload_button@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05B057B41D6362B900843503 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "protoc ${SRCROOT}/Shared/Protocol/proto/xpc.proto --proto_path=${SRCROOT}/Shared/Protocol/proto/ --objc_out=${SRCROOT}/Shared/Protocol";
+		};
+		05B058C41D63CFA000843503 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# make a copy of info.plist\ncp ${SRCROOT}/OneVPNHelper/OneVPNHelper-Info.plist ${SRCROOT}/OneVPNHelper/OneVPNHelper-Info_UPD.plist\n\n# replace version in UPD plist\nsed -i '' 's/$(HELPER_MAJOR_VERSION)/'${HELPER_MAJOR_VERSION}'/g' ${SRCROOT}/OneVPNHelper/OneVPNHelper-Info_UPD.plist\nsed -i '' 's/$(HELPER_MINOR_VERSION)/'${HELPER_MINOR_VERSION}'/g' ${SRCROOT}/OneVPNHelper/OneVPNHelper-Info_UPD.plist";
+		};
+		05B058C51D63D28C00843503 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# remove UPD plist\nrm ${SRCROOT}/OneVPNHelper/OneVPNHelper-Info_UPD.plist";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05CB3CC71D609AB800EE5F7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058B15201D65D5B7006AC1A2 /* NSImage+AppImages.m in Sources */,
+				058B14F21D640330006AC1A2 /* AFURLConnectionOperation.m in Sources */,
+				058B14F41D640330006AC1A2 /* UIImageView+AFNetworking.m in Sources */,
+				05B058B01D637D5800843503 /* GPBProtocolBuffers.m in Sources */,
+				058B15231D65EDB1006AC1A2 /* MenuViewController.m in Sources */,
+				058B14FE1D640803006AC1A2 /* RestService.m in Sources */,
+				05B058C01D63BB0800843503 /* XPCConnection.m in Sources */,
+				055C6B2E1D7C3B5D003B6759 /* PinCoordsByCountry.m in Sources */,
+				058B14F11D640330006AC1A2 /* AFPropertyListRequestOperation.m in Sources */,
+				05B057BB1D63686500843503 /* Xpc.pbobjc.m in Sources */,
+				05CB3D121D63374E00EE5F7C /* MainWindowController.m in Sources */,
+				058B14F31D640330006AC1A2 /* AFXMLRequestOperation.m in Sources */,
+				058B14F01D640330006AC1A2 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				058B14ED1D640330006AC1A2 /* AFHTTPRequestOperation.m in Sources */,
+				058B153F1D663CBA006AC1A2 /* ServerCellView.m in Sources */,
+				058B14FA1D6403CA006AC1A2 /* ServerInfo.m in Sources */,
+				05CB3D091D63362200EE5F7C /* AppDelegate.m in Sources */,
+				058B15111D65B20B006AC1A2 /* NSColor+AppColors.m in Sources */,
+				058B15031D641643006AC1A2 /* ConnectViewController.m in Sources */,
+				058B152B1D65F85B006AC1A2 /* ClickableView.m in Sources */,
+				058B14EE1D640330006AC1A2 /* AFImageRequestOperation.m in Sources */,
+				058B14EC1D640330006AC1A2 /* AFHTTPClient.m in Sources */,
+				058B14EF1D640330006AC1A2 /* AFJSONRequestOperation.m in Sources */,
+				05CB3D0B1D63368C00EE5F7C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CB3D1D1D634B3900EE5F7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057C0B4A1D6EE0A500996194 /* ClientThread.m in Sources */,
+				053829CF1D6A1CC000E31074 /* VPNConnectionManager.m in Sources */,
+				057C0B461D6E4BAF00996194 /* OpenVPNConfigUtils.m in Sources */,
+				05B058A51D6379C700843503 /* GPBProtocolBuffers.m in Sources */,
+				05B057BC1D63686D00843503 /* Xpc.pbobjc.m in Sources */,
+				05B058B71D63B46500843503 /* MessageProcessor.m in Sources */,
+				057C0B3E1D6E407000996194 /* OpenVPNConfig.m in Sources */,
+				05ECFC551D7DD5EC00C59FE7 /* PPPDConfig.m in Sources */,
+				05B057AA1D63583200843503 /* main.m in Sources */,
+				05ECFC581D7DD6B200C59FE7 /* PPPDConfigUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05B057AC1D63589100843503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05CB3D201D634B3900EE5F7C /* com.onevpn.OneVPNHelper */;
+			targetProxy = 05B057AB1D63589100843503 /* PBXContainerItemProxy */;
+		};
+		05B057B61D63634D00843503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05B057B01D6362B100843503 /* protobuf */;
+			targetProxy = 05B057B51D63634D00843503 /* PBXContainerItemProxy */;
+		};
+		05B057B81D63635100843503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05B057B01D6362B100843503 /* protobuf */;
+			targetProxy = 05B057B71D63635100843503 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05CB3CE01D609B4300EE5F7C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05CB3CE11D609B4300EE5F7C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05B057B21D6362B100843503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05B057B31D6362B100843503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		05CB3CD61D609AB800EE5F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B058B11D63969D00843503 /* build_version.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05CB3CD71D609AB800EE5F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B058B11D63969D00843503 /* build_version.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		05CB3CD91D609AB800EE5F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B058B11D63969D00843503 /* build_version.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"APP_MAJOR_VERSION=$(APP_MAJOR_VERSION)",
+					"APP_MINOR_VERSION=$(APP_MINOR_VERSION)",
+					"HELPER_MAJOR_VERSION=$(HELPER_MAJOR_VERSION)",
+					"HELPER_MINOR_VERSION=$(HELPER_MINOR_VERSION)",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/OneVPN/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OneVPN/Resources/ovpn",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onevpn.OneVPN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05CB3CDA1D609AB800EE5F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B058B11D63969D00843503 /* build_version.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"APP_MAJOR_VERSION=$(APP_MAJOR_VERSION)",
+					"APP_MINOR_VERSION=$(APP_MINOR_VERSION)",
+					"HELPER_MAJOR_VERSION=$(HELPER_MAJOR_VERSION)",
+					"HELPER_MINOR_VERSION=$(HELPER_MINOR_VERSION)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/OneVPN/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OneVPN/Resources/ovpn",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onevpn.OneVPN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		05CB3D261D634B3900EE5F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B058B11D63969D00843503 /* build_version.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OneVPNHelper/OneVPNHelper.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = AG5DS2GD4F;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"APP_MAJOR_VERSION=$(APP_MAJOR_VERSION)",
+					"APP_MINOR_VERSION=$(APP_MINOR_VERSION)",
+					"HELPER_MAJOR_VERSION=$(HELPER_MAJOR_VERSION)",
+					"HELPER_MINOR_VERSION=$(HELPER_MINOR_VERSION)",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OneVPNHelper/OneVPNHelper-Info.plist";
+				INFOPLIST_PREPROCESS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"OneVPNHelper/OneVPNHelper-Info_UPD.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"OneVPNHelper/OneVPNHelper-Launchd.plist",
+				);
+				PRODUCT_NAME = com.onevpn.OneVPNHelper;
+			};
+			name = Debug;
+		};
+		05CB3D271D634B3900EE5F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B058B11D63969D00843503 /* build_version.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OneVPNHelper/OneVPNHelper.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = AG5DS2GD4F;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"APP_MAJOR_VERSION=$(APP_MAJOR_VERSION)",
+					"APP_MINOR_VERSION=$(APP_MINOR_VERSION)",
+					"HELPER_MAJOR_VERSION=$(HELPER_MAJOR_VERSION)",
+					"HELPER_MINOR_VERSION=$(HELPER_MINOR_VERSION)",
+				);
+				INFOPLIST_FILE = "OneVPNHelper/OneVPNHelper-Info.plist";
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = SMJOBBLESS_RELEASE;
+				INFOPLIST_PREPROCESS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"OneVPNHelper/OneVPNHelper-Info_UPD.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"OneVPNHelper/OneVPNHelper-Launchd.plist",
+				);
+				PRODUCT_NAME = com.onevpn.OneVPNHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05B057B11D6362B100843503 /* Build configuration list for PBXAggregateTarget "protobuf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05B057B21D6362B100843503 /* Debug */,
+				05B057B31D6362B100843503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05CB3CC61D609AB800EE5F7C /* Build configuration list for PBXProject "OneVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CB3CD61D609AB800EE5F7C /* Debug */,
+				05CB3CD71D609AB800EE5F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05CB3CD81D609AB800EE5F7C /* Build configuration list for PBXNativeTarget "OneVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CB3CD91D609AB800EE5F7C /* Debug */,
+				05CB3CDA1D609AB800EE5F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05CB3D251D634B3900EE5F7C /* Build configuration list for PBXNativeTarget "com.onevpn.OneVPNHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CB3D261D634B3900EE5F7C /* Debug */,
+				05CB3D271D634B3900EE5F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05CB3CC31D609AB800EE5F7C /* Project object */;
+}

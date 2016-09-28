@@ -1,0 +1,15 @@
+//
+//  build_version.xcconfig
+//  OneVPN
+//
+//  Created by Aleksey Dvoryanskiy on 8/16/16.
+//  Copyright © 2016 OneVPN. All rights reserved.
+//
+
+// helper v1.0
+HELPER_MAJOR_VERSION = 1
+HELPER_MINOR_VERSION = 0
+
+// app v1.0
+APP_MAJOR_VERSION = 1
+APP_MINOR_VERSION = 0

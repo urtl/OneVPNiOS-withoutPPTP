@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.onevpn.OneVPNHelper</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>OneVPNHelper</string>
+	<key>CFBundleVersion</key>
+	<string>$(HELPER_MAJOR_VERSION).$(HELPER_MINOR_VERSION)</string>
+	<key>SMAuthorizedClients</key>
+	<array>
+		<string>identifier com.onevpn.OneVPN and certificate leaf[subject.CN] = &quot;Developer ID Application: Mohammed Ali Asad (AG5DS2GD4F)&quot;</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,97 @@
+syntax = "proto2";
+
+package onevpn;
+
+enum Type {
+	VERSION = 0;
+	PATHES = 1;
+	STATUS = 2;
+	CONNECT = 3;
+	DISCONNECT = 4;
+}
+
+message PathesRequest {
+	required string ovpnPath = 1;
+	required string pppdPath = 2;
+}
+
+message VersionResponse {
+	required int32 majorVersion = 1;
+	required int32 minorVersion = 2;
+}
+
+enum Protocol {
+	PPTP = 0;
+	L2TP = 1;
+	TCP = 2;
+	UDP = 3;
+}
+
+message Server {
+	required int32 id = 1;
+	required string country = 2;
+	required string name = 3;
+	
+	required string dns = 4;
+	required int32 port = 5;
+	required Protocol protocol = 6;
+
+	required string login = 7;
+	required string password = 8;
+}
+
+enum ExtStatus {
+	Success = 0;
+	AuthFailed = 1;
+	OtherFailed = 2;
+}
+
+enum Status {
+	OK = 0;
+	FAIL = 1;
+}
+
+message PathesResponse {
+	required Status status = 1;
+}
+
+message ConnectResponse {
+	required Status status = 1;
+	required ExtStatus extStatus = 2;
+}
+
+message DisconnectResponse {
+	required Status status = 1;
+}
+
+enum ServerStatus {
+	CONNECTED = 0;
+	DISCONNECTED = 1;
+}
+
+message StatusResponse {
+	required ServerStatus status = 1;
+	optional Server server = 2;
+}
+
+message XPCRequest {
+	required Type type = 1;
+
+	oneof msg {
+		PathesRequest pathes = 2;
+		Server connect = 3;
+	}
+}
+
+message XPCResponse {
+	required Type type = 1;
+
+	oneof msg {
+		VersionResponse version = 2;
+		PathesResponse pathes = 3;
+		StatusResponse status = 4;
+		ConnectResponse connect = 5;
+		DisconnectResponse disconnect = 6;
+	}
+}
+
